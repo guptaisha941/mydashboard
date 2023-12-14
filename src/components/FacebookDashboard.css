@@ -1,0 +1,206 @@
+.dashboard-background {
+  background-image: url("https://superdevresources.com/wp-content/uploads/2015/12/new-york-background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  color: #fff;
+}
+
+.top-bar {
+  background-color: #0b7937; 
+  color: #e6e2e2;
+  padding: 30px 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.user-profile-text {
+  margin-left: 20px; 
+}
+
+.sidebar {
+  background-color: #2850a7; 
+  color: #fff;
+  padding: 20px;
+  width: 80px; 
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+
+
+
+.date-picker-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  button {
+    margin-right: 10px;
+  }
+}
+
+.metric-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  background-color: #a3a7df;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  .metric-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .metric-title {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #0b0909;
+  }
+
+  .metric-value {
+    margin: 0;
+    font-size: 18px;
+    color: #170f0f;
+  }
+}
+
+.chart-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.chart-card {
+  background-color: #eff1f3;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  .chart-title {
+    margin-bottom: 10px;
+    color: #0c0909;
+  }
+}
+
+.main-content {
+  margin-left: 220px; 
+  padding: 30px;
+}
+
+
+.rounded-pill {
+  border: 2px solid #007bff; 
+  background-color: white; 
+  color: #007bff; 
+  border-radius: 50px; /* Set border-radius to create rounded pills */
+  width: 200px; 
+  height: 50px;
+  font-size: large;
+  text-align: center;
+  margin: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+/* Hover effect for the button */
+.rounded-pill:hover {
+  background-color: #007bff; /* Background color on hover */
+  color: white; 
+}
+
+/* DatePicker Styles */
+.react-datepicker-wrapper {
+  display: inline-block;
+  margin: 5px; 
+}
+
+.react-datepicker__input-container {
+  width: 120px; /* Adjust the width based on your design */
+}
+
+.react-datepicker__input-container input {
+  border: 2px solid #007bff; 
+  background-color: white; 
+  color: #007bff; /* Text color for the input */
+  border-radius: 50px; /* Set border-radius to create rounded pills */
+  width: 100%; /* Make the input full width */
+  padding: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+/* Hover effect for the input */
+.react-datepicker__input-container input:hover {
+  background-color: #007bff; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+.date-picker-container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+
+.date-picker-text {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: large;
+  color: #fff;
+  
+}
+
+
+
+.top-bar {
+  background-color: #3498db;
+  padding: 10px;
+}
+
+.user-profile {
+  align-items: center;
+}
+
+
+.user-text {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.center-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
